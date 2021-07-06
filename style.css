@@ -78,7 +78,7 @@ span {
 
 .part-two p {
   padding-bottom: 100px;
-  padding-right: 500px;
+  padding-right: 250px;
 }
 
 .part-two a {
@@ -109,6 +109,7 @@ span {
 
 .third-part {
   display: flex;
+  margin: 100px;
 }
 
 .part-three {
@@ -116,7 +117,7 @@ span {
   border-radius: 30px;
   padding: 10px;
   box-shadow: 0px 0px 30px silver;
-  margin: 100px;
+  margin: 10px;
 }
 
 .part-three img {
