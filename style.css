@@ -1,10 +1,9 @@
 * {
-  margin: 0;
-  padding: 0;
+  padding: 0px;
+  margin: 0px;
 }
-
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 span {
@@ -23,7 +22,7 @@ span {
 
 .part img {
   width: 550px;
-  padding-right: 200px;
+  margin-right: 200px;
 }
 
 .first-part h1 {
@@ -39,17 +38,13 @@ span {
 
 .part a {
   text-decoration: none;
-  background-image: linear-gradient(
-    #ff6200,
-    #fd7f2c,
-    #fd9346,
-    #fda766,
-    #fdb777
-  );
-  padding: 10px 15px;
-  border-radius: 10px;
+  padding: 15px 20px;
+  border-radius: 100px;
   font-weight: 500;
   color: white;
+  background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  box-shadow: 0px 2px 30px rgba(252, 142, 73, 0.582);
+  border-radius: 150px;
 }
 
 .second-part {
@@ -61,9 +56,23 @@ span {
 
 .part-two {
   width: 50%;
+  padding-left: 200px;
 }
 
 .part-two img {
-  width: 500px;
-  padding-left: 200px;
+  width: 315px;
+  height: auto;
+  padding: 100px;
+}
+
+.part-two h1 {
+  text-decoration: 700;
+  padding-bottom: 30px;
+  font-size: 50px;
+  color: rgb(102, 101, 101);
+  margin-top: 150px;
+}
+
+.part-two p {
+  margin-right: 150px;
 }
