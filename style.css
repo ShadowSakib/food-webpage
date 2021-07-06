@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   border: 0;
+  margin-left: 0;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -51,21 +52,20 @@ span {
 }
 
 .second-part {
-  background-image: url(./images/7.png);
+  background-image: url(./images/Frame\ 59.jpg);
   background-repeat: no-repeat;
   display: flex;
-  padding-bottom: 100px;
 }
 
 .part-two {
   width: 50%;
-  padding-left: 200px;
 }
 
 .part-two img {
-  width: 315px;
+  width: 400px;
   height: auto;
-  padding: 100px;
+  margin-left: 100px;
+  margin-top: 90px;
 }
 
 .part-two h1 {
@@ -77,8 +77,8 @@ span {
 }
 
 .part-two p {
-  padding-right: 150px;
   padding-bottom: 100px;
+  padding-right: 500px;
 }
 
 .part-two a {
@@ -97,6 +97,7 @@ span {
   color: grey;
   font-weight: 700;
   padding-bottom: 30px;
+  padding-top: 70px;
 }
 
 #receipe p {
@@ -115,19 +116,20 @@ span {
   border-radius: 30px;
   padding: 10px;
   box-shadow: 0px 0px 30px silver;
-  margin: 80px;
+  margin: 100px;
 }
 
 .part-three img {
   width: 300px;
-  border: 10px solid white;
-  border-radius: 30px;
+  border: 20px solid white;
   padding-bottom: 30px;
   border-radius: 15px;
 }
 
 .part-three h1 {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+}
+.part p {
 }
 
 .forth-part {
