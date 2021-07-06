@@ -25,7 +25,7 @@ span {
 
 .part img {
   width: 550px;
-  margin-right: 200px;
+  padding-right: 200px;
 }
 
 .first-part h1 {
@@ -33,7 +33,7 @@ span {
   padding-bottom: 30px;
   font-size: 50px;
   color: rgb(102, 101, 101);
-  margin-top: 150px;
+  padding-top: 150px;
 }
 .part p {
   padding-bottom: 50px;
@@ -54,8 +54,7 @@ span {
   background-image: url(./images/7.png);
   background-repeat: no-repeat;
   display: flex;
-  left: 0;
-  /*padding-bottom: 100px;*/
+  padding-bottom: 100px;
 }
 
 .part-two {
@@ -74,11 +73,11 @@ span {
   padding-bottom: 30px;
   font-size: 50px;
   color: rgb(102, 101, 101);
-  margin-top: 150px;
+  padding-top: 150px;
 }
 
 .part-two p {
-  margin-right: 150px;
+  padding-right: 150px;
   padding-bottom: 100px;
 }
 
@@ -102,8 +101,8 @@ span {
 
 #receipe p {
   text-align: center;
-  margin-right: 400px;
-  margin-left: 400px;
+  padding-right: 400px;
+  padding-left: 400px;
   padding-bottom: 40px;
 }
 
@@ -115,7 +114,7 @@ span {
   width: 50%;
   border-radius: 30px;
   padding: 10px;
-  box-shadow: 0px 0px 30px gray;
+  box-shadow: 0px 0px 30px silver;
   margin: 80px;
 }
 
@@ -129,4 +128,34 @@ span {
 
 .part-three h1 {
   padding-bottom: 10px;
+}
+
+.forth-part {
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 0px 20px silver;
+  border-radius: 15px;
+  margin: 50px 200px 200px 200px;
+  font-size: xx-large;
+}
+
+.part-four {
+  width: 50%;
+  text-decoration: 700;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 50px;
+  padding-left: 70px;
+}
+
+.part-four p {
+  font-size: xx-small;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: gray;
+  padding-bottom: 150px;
+  padding-top: 30px;
 }
